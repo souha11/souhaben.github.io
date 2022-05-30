@@ -1,0 +1,151 @@
+/*@media(max-width:576px){*/
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+}
+.header{
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 8em;
+}
+#img{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 3em;
+    }
+p{
+    text-align: center;
+    color: var(--Grayish-Blue);
+    margin-bottom: 4em;
+    }
+a{ 
+    text-decoration: none;
+}  
+.btn1{
+    margin:0em;
+    padding: 1em 2em;
+    border-radius: 50em;
+    color: white;
+    background-color: var(--Strong-Cyan);
+    margin-left: 25em;
+    margin-right: 1em;
+}
+.btn1:hover{
+box-shadow:hsl(171, 66%, 44%) 0px 10px 36px 0px, hsl(171, 66%, 44%) 0px 0px 0px 1px;
+}
+.btn2:hover{
+    box-shadow:hsl(233, 100%, 69%) 0px 10px 36px 0px, hsl(233, 100%, 69%) 0px 0px 0px 1px;
+}
+
+.btn2{
+    margin:0em;
+    padding: 1em 2em;
+    border-radius: 50em;
+    color: white;
+    background-color: var(--Light-Blue);
+}
+h2{
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    font-size: 2em;
+}
+ol,ul{
+    list-style: none;
+    margin-left: 5em;
+}
+h3{
+    color: var(--Dark-Grayish-Blue);
+    text-align: left;
+}
+#part{
+    display: flex;
+}
+.title1{
+    text-align: left;
+}
+.para{
+    margin: 0;
+    color: var(--Grayish-Blue);
+    text-align: left;
+}
+.box1,.box2,.box3,.box4{
+    margin-bottom: 8em;
+}
+#img1{
+    display: block;
+    margin: auto;
+}
+.image{
+    display: block;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+#list{
+    display: flex;
+    padding: 0;
+    margin-bottom: 5em;
+    
+}
+li{
+    margin-right: 2em;
+}
+.para1{
+    text-align: center;
+}
+.image1{
+    display: flex;
+}
+.images{
+    display: flex;
+}
+.images li{
+    margin-right: 5em;
+}
+.footer{
+    display: flex;
+}
+.list2{
+    display: flex;
+}
+.logo ul{
+    display: flex;
+}
+.footer{
+    background-color: gainsboro;
+    position: relative;
+    padding: 2em;
+}
+#logofooter{
+    height: 70px;
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+}
+.logo ul{
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+}
+/*.twitter:hover{
+    background: var(--Grayish-Blue);
+}*/
+#contact:hover{
+    color: var(--Strong-Cyan);
+}
